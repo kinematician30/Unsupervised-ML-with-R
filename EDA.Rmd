@@ -1,0 +1,35 @@
+# Exploratory Data Analysis on Country Data.
+
+Based on thier socio-economic and health factor...
+
+## Import Libaries
+
+```{r}
+library(dplyr) # for data manipulation and analysis
+library(ggplot2) # for data visualisation
+```
+
+## Data Collection
+
+```{r}
+cnt_data <- readr::read_csv(".\\data\\Country-data.csv")
+```
+
+## Data Information
+
+```{r}
+# first 5 rows
+head(cnt_data)
+```
+
+```{r}
+# Structure of the datset
+str(cnt_data)
+```
+
+```{r}
+# Missing Values
+sum(is.na(cnt_data))
+```
+
+## Insights to gather
