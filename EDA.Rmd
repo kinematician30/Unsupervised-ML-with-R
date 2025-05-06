@@ -33,3 +33,7 @@ sum(is.na(cnt_data))
 ```
 
 ## Insights to gather
+
+```{r}
+cnt_data[cnt_data$country == "Nigeria", ]
+```
